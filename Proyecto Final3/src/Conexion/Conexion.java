@@ -16,7 +16,7 @@ public class Conexion {
 				String base = "ITLA";
 				String url = "jdbc:mysql://localhost:3306/" + base;
 				String user = "root";
-				String password = "BreakingBad3";
+				String password = "";
 				Class.forName(driver);
 				con = (Connection) DriverManager.getConnection(url, user, password);
 
